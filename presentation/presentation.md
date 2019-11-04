@@ -191,7 +191,6 @@ print("type of sum is: ", type(sum))
 -  `import` statement 
     - used to import modules/packages whose functions or variables can be used in the current program
 
-
 ---
 
 ### <span style="color:purple">Python packages</span>
@@ -200,10 +199,16 @@ print("type of sum is: ", type(sum))
 
 
 - Python has two main types of packages:
+
     - belong to the standard library
+
     - do not belong to the standard library
     
---
+
+---
+
+### <span style="color:purple">Python packages</span>
+   
     
 - A popular packages from the standard library: 
     - `os`: functions for interacting with the operating system
