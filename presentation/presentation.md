@@ -158,23 +158,18 @@ print("type of sum is: ", type(sum))
    
 - int (integer)
     - e.g. `3`, `20000`
-
 - float
     - system-defined precision
     - e.g. `2.4`, `2.`
-
 - complex
     - real and imaginary parts
     - e.g. `2 + 3j`
-
 - str (string)
     - a sequence of characters
     - e.g. `"Hello"`, `'Hi'`, `""" used for multiple lines """`
-
 - bool
     - represents logical values
     - can be `True` or `False`
-
 - NoneType
     - represents the absence of a value
     - `None`
@@ -211,21 +206,16 @@ print("type of sum is: ", type(sum))
 - `=` 
     - assignment 
     - e.g. `a=3`   
-
 - `if` statement 
     - conditionally executes a block of code 
     - can be combined with  `else` and `elif`(i.e., else if)
-
 - `for` statement 
     - iterates over an iterable object 
     - used e.g. with `list`, `tuple`
-
 - `while` statement 
     - executes a block of code as long as its condition is true
-
 - `def` statement 
     - defines a new function
-
 -  `import` statement 
     - used to import modules/packages whose functions or variables can be used in the current program
 
@@ -250,13 +240,9 @@ print("type of sum is: ", type(sum))
 - A popular packages from the standard library: 
 
     - `os`: functions for interacting with the operating system
-
     - `datetime`:  for manipulating dates and times
-
     - `math`: gives access to the underlying C library functions for floating point math
-
     - `random`: tools for making random selections
-
     - and many others...
     
 -- 
@@ -264,12 +250,8 @@ print("type of sum is: ", type(sum))
 - A popular packages NOT from the standard library: 
 
     - `numpy`: multidimensional array
-
     - `scipy`: many scientific tools for linear algebra, optimization, integration, ...
-
     - `pandas`: data structures and data analysis tools; support for data frames
-
     - `matplotlib`, `seaborn`: visualization
-
     - and many others...
 
