@@ -21,13 +21,9 @@ layout: false
  - What's your name and where you work?
  - Why do you want to learn Python?
  - Have you tried to learn Python before? Hod did it go? 
- 
----
-
-### <span style="color:purple">Part I: Intro to Python language</span>
-
-- Programming languages
- 
+ - Do you have Python installed on your laptop (do you know the version)?
+ - What is your operating system? 
+  
 
 ---
 
@@ -41,15 +37,18 @@ layout: false
    - open source vs closed source
    - different design philosophy
    
+--    
+but don't concentrate too much on these points...
+
 ---
 
 ### <span style="color:purple">Python language</span>
-TODO
-   - high level language
-   - interpreted
-   - general-purpose
-   - dynamic typing
-   - open source software
+- Python is:
+   - high level language (strong abstraction from the details of the computer)
+   - interpreted (don't have to compile first)
+   - general-purpose 
+   - dynamically typed
+   - free and open source software (code is available for everyone)
    - design philosophy: code readability
       
 
@@ -69,7 +68,7 @@ TODO
     - using jupyter notebook: a web-based interactive computational environment,
     can be used to create documents that contain live code, equations, visualizations and narrative text 
     
-Today, we will use an online interpreter: 
+Today, you can use an online interpreter: 
 https://www.onlinegdb.com/online_python_interpreter
 
 ---
@@ -171,9 +170,6 @@ print("type of sum is: ", type(sum))
     - e.g. `{"name": "Dorota", "city": "Somerville"}`
     - accessing an element: `a["name"]`
 
--- 
-
-Let's practice
 
 ---
 
@@ -195,15 +191,14 @@ Let's practice
 -  `import` statement 
     - used to import modules/packages whose functions or variables can be used in the current program
 
---
-
-Let's practice
 
 ---
 
 ### <span style="color:purple">Python packages</span>
    
 - In order to do anything useful in Python we need to use additional packages:
+
+
 - Python has two main types of packages:
     - belong to the standard library
     - do not belong to the standard library
