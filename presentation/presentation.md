@@ -149,9 +149,6 @@ print("type of a is: ", type(a))
 --
 And what is the type of `sum`?
 
-```python
-print("type of sum is: ", type(sum))
-```
 ---
 
 ### <span style="color:purple">Python: data types</span>
@@ -198,6 +195,36 @@ print("type of sum is: ", type(sum))
     - e.g. `{"name": "Dorota", "city": "Somerville"}`
     - accessing an element: `a["name"]`
 
+---
+
+Let's create a list with two numbers:
+```python
+l = [1, 3]
+```
+we can always add a new element:
+```python
+l.append(5)
+print(l)
+```
+
+or change an element:
+```python
+l[1] = 30
+print(l)
+```
+
+
+--
+
+what happen when we define a tuple and try to change an element?
+
+```python
+t = (1, 3)
+t[1] = 30
+```
+
+you should get a `TypeError` with a message `tuple object does not support item assignment`. 
+This happens because tuples are **immutable**.
 
 ---
 
@@ -221,6 +248,34 @@ print("type of sum is: ", type(sum))
 
 ---
 
+---
+
+Let's create a new list that takes all elements from the list `l_orig` and 
+adds 10 to each:
+```python
+l_orig = [1, 3, 5]
+l_new = []
+for el in l_orig:
+    l_new.append(el+10)
+print(l_new)
+```
+
+--
+
+From a dictionary contains 4 keys: `name`, `last name`, `office` and `cell` 
+print all value except the cell number:
+
+```python
+my_dict = {"name": "dorota", "last name": "jarecka", "cell": 7200000000, "office": 5094}
+for key, value in my_dict.items():
+    if key != "cell":
+        print(key, ": ", value)
+```
+
+notice, that the order might be different than the one we used
+
+---
+
 ### <span style="color:purple">Python packages</span>
    
 - In order to do anything useful in Python we need to use additional packages:
@@ -237,6 +292,7 @@ print("type of sum is: ", type(sum))
 
 ### <span style="color:purple">Python packages</span>
    
+
 - A popular packages from the standard library: 
 
     - `os`: functions for interacting with the operating system
@@ -246,6 +302,7 @@ print("type of sum is: ", type(sum))
     - and many others...
     
 -- 
+
 
 - A popular packages NOT from the standard library: 
 
