@@ -260,13 +260,17 @@ for el in l_orig:
 print(l_new)
 ```
 
+
 --
 
-From a dictionary contains 4 keys: `name`, `last name`, `office` and `cell` 
+
+
+From a dictionary that contains 4 keys: `name`, `last name`, `office` and `cell` 
 print all value except the cell number:
 
 ```python
-my_dict = {"name": "dorota", "last name": "jarecka", "cell": 7200000000, "office": 5094}
+my_dict = {"name": "dorota", "last name": "jarecka", 
+           "cell": 7200000000, "office": 5094}
 for key, value in my_dict.items():
     if key != "cell":
         print(key, ": ", value)
