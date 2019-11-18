@@ -174,6 +174,9 @@ of the list
 6. use `!` to run a simple shell command
 7. use `%timeit` to time the execution
 
+notes from the class: 
+https://github.com/djarecka/scientific_python_intro_tutorial/blob/master/week2.ipynb
+
 --
 
 you can find more:
