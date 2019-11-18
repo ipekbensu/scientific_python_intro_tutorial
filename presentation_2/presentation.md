@@ -165,15 +165,14 @@ There are three types of "cells":
 
 Let's explore the jupyter notebook and review the last class
 
-1. create a list of integer from 0 to 9
-2. use `range` to create the list
-3. iterate over the list
-4. print even numbers from the list
-5. create a new list that contains the second power of all integers
-6. use list comprehension for 5
-7. import `math` library and review available functions
-8. use `!` to run a simple shell comand
-8. use `%timeit` to  time the execution
+1. create a list of integers from 0 to 9 (use `range`)
+2. print all even numbers from 0 to 9
+3. create a new list that contains the second power of all elements 
+of the list
+4. use list comprehension for creating the new list
+5. import `math` library and review available functions
+6. use `!` to run a simple shell command
+7. use `%timeit` to time the execution
 
 --
 
