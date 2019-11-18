@@ -37,17 +37,16 @@ More about PyPI and Conda/Anaconda:
     - environment manager
     - compilers are never needed (using already compiled form, i.e. binaries)
     - provide dependency checks: ensures that the environment will work properly
-    - windows?...
  
 --
 
 Installing Python packages used to be hard (especially on Windows), 
 but this has been improved a lot! 
 
-In most cases you will not have any issue installing packages, 
-but to be safe - use project specific environments (will be discussed later) 
- 
----   
+In most cases you will not have any issues installing packages, 
+but to be safe - use project specific environments (will be discussed later)
+
+---
 ### <span style="color:purple">Conda and Anaconda</span>
 
 
