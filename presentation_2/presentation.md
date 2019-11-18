@@ -113,7 +113,8 @@ Deactivating conda environment
 conda deactivate
 ```
 
----   
+---
+
 ### <span style="color:purple">Jupyter notebook</span>
 
 - What is a notebook document?
@@ -134,9 +135,9 @@ conda deactivate
      the code from a notebook (ipython used to execute Python code)
     - can be executed on a local desktop (no internet access required)
     - or can be installed on a remote server (accessed through the internet)
-
-
----   
+    
+---
+   
 ### <span style="color:purple">Jupyter notebook</span>
 
 Let's open a jupyter notebook on your local browser:
@@ -158,7 +159,8 @@ There are three types of "cells":
 - markdown cell: for a nicely formatted report (text, equations, etc.)
 - raw cell: for raw form text
 
----   
+---
+ 
 ### <span style="color:purple">Jupyter notebook</span>
 
 Let's explore the jupyter notebook and review the last class
@@ -179,8 +181,7 @@ you can find more:
 
  - https://github.com/ipython/ipython-in-depth
  - https://blog.dominodatalab.com/lesser-known-ways-of-using-notebooks/
-
-
+ 
 ---
 ### <span style="color:purple">NumPy</span>
 
