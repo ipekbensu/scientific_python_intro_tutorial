@@ -68,9 +68,11 @@ In order to use Conda:
 In order to have the Anaconda full distribution:
 
 - install [Anaconda](https://www.anaconda.com/distribution/) 
-- could be also installed from Miniconda    
+- could be also installed from Miniconda
 
----   
+
+---
+   
 ### <span style="color:purple">Creating and using Conda environments</span>
 
 Why do we use conda (or python) environments?
